@@ -145,15 +145,15 @@ Example:
 
 LUA
 ```lua
-RegisterNUICallback("example", function(request,response)
-    print(request)
-    response("sth")
+RegisterNUICallback("example", function(data,cb)
+    print(data)
+    cb("sth")
 end)
 ```
 
 JS
 ```js
-callNui('example', "test", (response) => console.log(response))
+callNui('example', "test", (data) => console.log(data))
 ```
 
 *What function will do:*
