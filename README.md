@@ -18,7 +18,7 @@ A simple template to make FiveM Lua scripts with NUI created in ReactJS. Webpack
 ```
 git clone https://github.com/KPGTB/fivem-react-template.git
 ```
-You can also that template or create new respository from that template
+You can also download that template or create new respository from that template
 
 2. Open terminal in `web/react` and install node packages
 ```
@@ -161,6 +161,15 @@ callNui('example', "test", (data) => console.log(data))
 2. *ReactJS will send `test` to FiveM's callback with name `example`*
 3. *FiveM will print `example` into console and will send callback with text `sth`*
 4. *ReactJS will print into console response `sth`*
+
+# Examples in code
+
+In that template I added some examples. Remove it when creating new resource.
+
+* `client/client.lua` - lines 1-3
+* `web/assets/logo.png`
+* `web/styles/app.css` (don't forget to remove also import from `web/styles/main.css`)
+* `web/react/App.jsx` - lines 13-14
 
 # License
 Apache 2.0
