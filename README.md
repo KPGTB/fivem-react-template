@@ -8,10 +8,6 @@
 
 A simple template to make FiveM Lua scripts with NUI created in ReactJS. Webpack is configured to make editing easier. Editing styles and assets doesn't require building a node project. Only changes in JS/JSX files require building.
 
-# Requirements
-
-* [NodeJS](https://nodejs.org/en)
-
 # Usage
 
 Check [documentation](https://docs.kpgtb.pl/category/fivem--reactjs-template)
