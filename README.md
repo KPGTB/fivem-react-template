@@ -10,7 +10,7 @@ A simple template to make FiveM Lua scripts with NUI created in ReactJS. Webpack
 
 # Usage
 
-Check [documentation](https://docs.kpgtb.pl/category/fivem--reactjs-template)
+Check [documentation](https://docs.kpgtb.eu/category/fivem--reactjs-template)
 
 # License
 Apache 2.0
